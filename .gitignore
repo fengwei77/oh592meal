@@ -1,0 +1,48 @@
+# 只推送 www 目錄，忽略其他所有根目錄檔案和資料夾
+/*
+!/www/
+!.gitignore
+!docker-compose.yml
+!README.md
+
+# Laravel & PHP
+/www/vendor/
+/www/node_modules/
+/www/public/hot
+/www/public/storage
+/www/storage/*.key
+/www/.env
+/www/.env.backup
+/www/.env.production
+/www/.phpunit.result.cache
+/www/auth.json
+/www/npm-debug.log
+/www/yarn-error.log
+
+# IDE & Editors
+/www/.idea
+/www/.vscode
+*.swp
+*.swo
+*~
+
+# Logs
+/www/storage/logs/*.log
+
+# Test & Coverage
+/www/tests/coverage/
+/www/.phpunit.cache
+
+# Temporary files
+*.tmp
+*.bak
+/www/test_*.php
+
+# Build files
+/www/public/build/
+/www/public/css/
+/www/public/js/
+
+# OS Files
+Thumbs.db
+.DS_Store
